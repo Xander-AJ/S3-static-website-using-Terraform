@@ -23,15 +23,15 @@ git clone https://github.com/your-username/S3-static-website-using-Terraform.git
 
 # Navigate to the project directory:
 
-cd S3-static-website-using-Terraform
+Cd S3-static-website-using-Terraform
 
 # Initialize Terraform:
 
-terraform init
+Terraform init
 
 # Apply the Terraform configuration:
 
-terraform apply
+Terraform apply
 
 # Project Structure
 The project structure is organized as follows:
@@ -72,7 +72,9 @@ Automation: Streamline deployment and updates with Terraform's automation capabi
 To get started with deploying your own static website on Amazon S3, follow the steps outlined in the Getting Started section below. In just a few commands, you'll have a fully operational S3 bucket ready to host your web content.
 
 # Project Structure
-The simplicity of this project's structure is intentional. The main Terraform configuration file, main.tf, defines the AWS resources required for hosting your static website. The variables.tf file allows customization, and the outputs.tf file provides essential information after deployment.
+The simplicity of this project's structure is intentional. 
+The main Terraform configuration file, main.tf, defines the AWS resources required for hosting your static website. 
+The variables.tf file allows customization, and the outputs.tf file provides essential information after deployment.
 
 Now, let's embark on a journey to simplify your static website deployment. Explore the project, follow the steps, and witness the ease of hosting your content on Amazon S3 with Terraform.
 
